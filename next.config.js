@@ -7,7 +7,7 @@ module.exports = {
     config.plugins.push(
       new ModuleFederationPlugin({
         remotes: {
-          nav: "nav@http://localhost:3001/remoteEntry.js",
+          nav: "nav@http://https://nav-gray.vercel.app/remoteEntry.js",
         },
         shared: [],
       })
